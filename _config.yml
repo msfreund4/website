@@ -270,8 +270,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 scholar:
   last_name: [Freund]
   first_name: [Michael, S.]
-
- style: apa
+  style: apa
   locale: en
   sort_by: year,month
   order: descending
@@ -286,8 +285,6 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
   query: "@*"
-
-  source: /_bibliography/
   bibliography: references.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
