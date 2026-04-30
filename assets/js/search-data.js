@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/website/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-group",
+          title: "Group",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/website/group/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -22,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/website/publications/";
+          },
+        },{id: "nav-research",
+          title: "Research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/website/research/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -36,6 +50,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/website/repositories/";
+          },
+        },{id: "nav-alumni",
+          title: "Alumni",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/website/alumni/";
           },
         },{id: "nav-cv",
           title: "CV",
