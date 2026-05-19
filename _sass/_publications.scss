@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Publication and bibliography styles
  ******************************************************************************/
- 
+
 @use "variables" as v;
- 
+
 .publications {
   margin-top: 2rem;
- 
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -14,15 +14,15 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
- 
+
   h2 {
     margin-bottom: 1rem;
- 
+
     span {
       font-size: 1.5rem;
     }
   }
- 
+
   h2.bibliography {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
@@ -30,45 +30,45 @@
     margin-top: 2rem;
     text-align: right;
   }
- 
+
   ol.bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
- 
+
     li {
       margin-bottom: 1rem;
       /* CHANGED: use Arial across every entry */
       font-family: Arial, Helvetica, sans-serif;
- 
+
       .preview {
         display: inline-block;
       }
- 
+
       .abbr {
         margin-bottom: 0.5rem;
- 
+
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
- 
+
           a {
             color: white;
- 
+
             &:hover {
               text-decoration: none;
             }
           }
         }
- 
+
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
       }
- 
+
       /* CHANGED: title is now bold + slightly larger so it reads as the headline */
       .title {
         font-family: Arial, Helvetica, sans-serif;
@@ -78,22 +78,22 @@
         line-height: 1.35;
         margin-bottom: 4px;
       }
- 
+
       .author {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         color: #555;
         margin-bottom: 6px;
- 
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
- 
+
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
           }
         }
- 
+
         /* CHANGED: the site author's own name no longer gets an underline highlight */
         > em {
           border-bottom: none;
@@ -101,34 +101,34 @@
           font-weight: 400;
           color: inherit;
         }
- 
+
         > span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
- 
+
           &:hover {
             color: var(--global-text-color);
             border-bottom: 1px dashed var(--global-text-color);
           }
         }
       }
- 
+
       /* NEW: journal + year line sits inline so the DOI pill can join it */
       .periodical {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         color: #555;
         display: inline;
- 
+
         em { font-style: italic; }
       }
- 
+
       /* CHANGED: links inline + DOI button styled as a coloured pill */
       .links {
         display: inline;
         margin-left: 10px;
- 
+
         a.btn {
           display: inline-block;
           background: #1f5f7a;
@@ -143,19 +143,19 @@
           text-decoration: none;
           margin-left: 0;
           transition: background 0.15s ease;
- 
+
           &:hover {
             background: #154457;
             color: #fff !important;
             border: 0;
           }
         }
- 
+
         a.award.btn {
           background: var(--global-highlight-color);
           color: #fff !important;
           border: 0;
- 
+
           &:hover {
             background: var(--global-highlight-color);
             color: #fff !important;
@@ -163,10 +163,10 @@
           }
         }
       }
- 
+
       .badges {
         padding-bottom: 0.5rem;
- 
+
         span {
           display: inline-block;
           color: v.$black-color;
@@ -174,12 +174,12 @@
           padding-right: 0.5rem;
           vertical-align: middle;
         }
- 
+
         &:hover {
           text-decoration: underline;
         }
       }
- 
+
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
@@ -190,19 +190,19 @@
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
- 
+
         p {
           line-height: 1.4em;
           margin: 10px;
         }
- 
+
         pre {
           font-size: 1em;
           line-height: 1.4em;
           padding: 10px;
         }
       }
- 
+
       .hidden.open {
         max-height: 100em;
         transition-property: 0.15s ease;
@@ -211,28 +211,27 @@
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
- 
+
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
       }
- 
+
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
- 
+
       div.award.hidden {
         border: dashed 1px var(--global-bg-color);
       }
- 
+
       div.award.hidden.open {
         border-color: var(--global-highlight-color);
       }
     }
   }
- 
+
   .citation,
   .citation-number {
     color: var(--global-theme-color);
   }
 }
- 
