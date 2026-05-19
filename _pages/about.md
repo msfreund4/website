@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   <a href="https://www.dal.ca/faculty/science/chemistry.html">Department of Chemistry</a> · Dalhousie University · Halifax, Nova Scotia
@@ -14,8 +14,6 @@ news: false
 selected_papers: false
 social: true
 ---
-
-## Welcome to the Freund Group
 
 We are a research group in the [Department of Chemistry](https://www.dal.ca/faculty/science/chemistry.html) at **Dalhousie University** in Halifax, Nova Scotia, led by **Professor Michael S. Freund**.
 
