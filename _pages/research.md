@@ -7,8 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-## Research Areas
-
 Our group works at the intersection of chemistry, materials science, and engineering. Below are our three main research themes.
 
 ---
